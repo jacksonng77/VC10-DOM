@@ -15,7 +15,7 @@
 
         var htmlstring;
 
-        for (i = 1; i <= 10; i++) {
+        for (var i = 1; i <= 10; i++) {
             result = from * i;
             htmlstring = "<a href='#' class='ui-btn' id='btn_" + i + "'>" + from.toString() + "x" + i.toString() + "</a>";
 
