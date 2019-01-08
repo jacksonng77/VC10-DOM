@@ -12,7 +12,7 @@ function multiply() {
     from = parseInt($("#txtFrom").val());
 
 
-    for (i = 1; i <= 10; i++) {
+    for (var i = 1; i <= 10; i++) {
         result = from * i;
         $("#mybody").append("<tr><td>" + from.toString() + "</td><td>" + i.toString() + "</td><td>" + result.toString() + "</td></tr>");
     }
