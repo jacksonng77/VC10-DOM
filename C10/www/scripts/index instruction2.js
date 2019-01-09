@@ -8,7 +8,6 @@
 
     function multiply() {
         var from, result;
-        $("#mybody").find("tr").remove();
         from = parseInt($("#txtFrom").val());
 
         $("#result").empty();
